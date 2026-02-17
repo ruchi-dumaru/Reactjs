@@ -1,3 +1,60 @@
+import { useState, useSyncExternalStore } from "react"
+
+// function App() {
+//  const [n1,setN1]=useState(99);
+//  const[name,setName]=useState("Rancho");
+
+//  function changeVal(){
+//   setN1(100000)
+//   setName("Brilliant Person")
+//  }
+//   return (
+//     <div>
+//      <h1>The value of number is {n1} and name is {name}</h1>
+//      <button onClick={changeVal}>Click here</button>
+ 
+//     </div>
+//   )
+// }
+// export default App
+
+// import React from 'react'
+
+// function App() {
+// let [num,setnum]=useState(0)
+// let increaseVal=()=>{
+//     setnum(num+1)
+   
+//     }
+//     let decreaseVal=()=>{
+//       setnum(num-1)
+      
+//     }
+
+//     let increaseByTen=()=>{
+//       setnum(num+10)
+//     }
+//   return (
+    
+//     <div>
+//     <h1>{num}</h1>
+
+//       <div id="box">
+//         <button onClick={increaseVal}>Increase</button>
+//       <button onClick={decreaseVal}>Decrease</button>
+
+//       <button onClick={increaseByTen}>Jump by 10</button>
+//       </div>
+//     </div>
+
+    
+//   )
+// }
+
+// export default App
+
+
+
 import Card from "./component/card";
 const App = () => {
   const jobs = [
